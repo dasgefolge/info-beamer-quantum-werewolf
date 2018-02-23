@@ -6,6 +6,8 @@ fi
 echo '{"mode": "loading"}' > data.json
 
 set -e
+cp /opt/git/github.com/fenhl/info-beamer-text/master/text.lua text.lua
+
 rust -R
 set +e
 

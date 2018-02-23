@@ -3,4 +3,15 @@ name = "info-beamer-quantum-werewolf"
 version = "0.1.0"
 authors = ["fenhl"]
 
+[[bin]]
+name = "info-beamer-quantum-werewolf"
+path = "src/main.rs"
+doc = false
+test = false
+bench = false
+
 [dependencies]
+rand = "*"
+
+[dependencies.quantum-werewolf]
+git = "https://github.com/fenhl/quantum-werewolf"
